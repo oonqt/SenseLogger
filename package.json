@@ -1,0 +1,26 @@
+{
+  "name": "SenseLogger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "sense-energy-node": "^1.0.4"
+  },
+  "nodemonConfig": {
+    "delay": "500",
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "ignore": [
+      "data/"
+    ]
+  }
+}
